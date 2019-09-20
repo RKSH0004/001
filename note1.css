@@ -1,0 +1,145 @@
+
+h1
+{
+	border-radius:20px;
+  display: block;
+  position:fixed;
+  font-family:arial;
+  width:99%;
+  height:8%;
+  text-align:center;
+  background-color:powderblue;
+  font-size: 2em;
+  border-top: 1px;
+  color:white;
+  border-bottom: 1px;
+  border-left: 0px;
+  border-right: 1px;
+  font-weight: bold;
+margin-bottom:10px;
+margin-top:0px;
+margin-left:0px;
+margin-right:0px;
+
+}
+
+p{
+
+	background-color:powderblue;
+	border-radius:15px;
+    padding:0.1%;
+	width:50%;
+padding-top:1%;
+padding-bottom:1%;
+color:black;
+font-weight:bold;
+font-family:serif;
+	margin-left:25%;
+	text-align:center;
+}
+
+input{
+	border: none;
+	background-color:powderblue;
+  text-align:center;
+
+}
+
+
+input:hover{
+	  border-bottom:0px solid grey;
+	  border-bottom:30%;
+	
+}
+
+	
+
+#inputFileNameToSaveAs:focus
+{
+	width:25%;
+}
+  
+  
+#inputTextToSave
+{
+	
+	box-sizing:border-box;
+	 background-attachment: local;
+    background-image:
+        linear-gradient(to right, white 10px, transparent 10px),
+        linear-gradient(to left, white 10px, transparent 10px),
+        repeating-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);
+    line-height: 31px;
+    padding: 8px 10px;
+	width: 98.5%;
+	height: 100%;
+    overflow-x:hidden;
+	overflow-y:visible;
+	outline-color:powderblue;
+	margin-left:10px;
+    
+}
+
+
+#inputTextToSave:hover{
+	
+	background-color:red;
+	color:blue;
+	
+}
+
+#note{
+	
+	color:yellow;
+}
+#qw{
+	
+	color:black;
+}
+
+
+.button {
+  border-radius: 20px;
+  background-color: powderblue;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  margin-left:41%;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 15px;
+  
+  
+}
+
+#sn{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#sn:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover #sn {
+  padding-right: 25px;
+  
+}
+
+.button:hover #sn:after {
+  opacity: 1;
+
+  right: 0;
+}
+
+
